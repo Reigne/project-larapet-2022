@@ -1,0 +1,163 @@
+.thumbnail img{
+    max-height: 150px;
+}
+.caption span{
+    float:right;
+}
+
+.card {
+     margin-left: auto;
+    margin-right: auto;
+    /*width: 8em*/
+}
+body {
+  overflow-x: hidden;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+
+}
+
+/* Toggle Styles */
+
+#viewport {
+  width: 110%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474F;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav{
+  
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+
+.jumbotron {
+    background-color:#f7f7f7; 
+}
+
+.content-item {
+    padding:30px 0;
+  background-color:#FFFFFF;
+}
+
+.content-item.grey {
+  background-color:#F0F0F0;
+  padding:50px 0;
+  height:100%;
+}
+
+.content-item h2 {
+  font-weight:700;
+  font-size:35px;
+  line-height:45px;
+  text-transform:uppercase;
+  margin:20px 0;
+}
+
+.content-item h3 {
+  font-weight:400;
+  font-size:20px;
+  color:#555555;
+  margin:10px 0 15px;
+  padding:0;
+}
+
+.content-headline {
+  height:1px;
+  text-align:center;
+  margin:20px 0 70px;
+}
+
+.content-headline h2 {
+  background-color:#FFFFFF;
+  display:inline-block;
+  margin:-20px auto 0;
+  padding:0 20px;
+}
+
+.grey .content-headline h2 {
+  background-color:#F0F0F0;
+}
+
+.content-headline h3 {
+  font-size:14px;
+  color:#AAAAAA;
+  display:block;
+}
+
+.comment-section {
+    display: block;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 1%;
+    margin-bottom: 5%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.name {
+    font-size: 20px
+}
+
+.comment-content {
+    font-size: 14px
+}
+
+.comments {
+    color: blue
+}
+
